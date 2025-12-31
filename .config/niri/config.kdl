@@ -79,6 +79,12 @@ output "winit" {
  transform "normal"
  position x=0 y=0
 }
+output "Smithay Winit Unknown" {  // 用你的输出名
+ scale 1.5  // 试 1.5~2.0，让内容更大
+ mode "1920x1080@60"
+ transform "normal"
+ position x=0 y=0
+}
 
 layout {
     gaps 7
